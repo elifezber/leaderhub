@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "826734372469",
+    "project_id": "leaderhublogin",
+    "storage_bucket": "leaderhublogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826734372469:android:a2313a0aa355ae8a277a3c",
+        "android_client_info": {
+          "package_name": "com.example.leaderhubtaslak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4395Fq_HxrQQkwxNBFlXX5cBTOm6uFRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.reflow.ReflowFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-43dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="266dp"
+                android:layout_marginTop="58dp"
+                android:src="@drawable/destekfoto"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:gravity="bottom|center|center_horizontal|top|fill_vertical"
+                android:text="Leaderhub L75V "
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/imageView10"
+                app:layout_constraintStart_toEndOf="@+id/imageView10"
+                tools:layout_editor_absoluteY="348dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:gravity="bottom|center|center_horizontal|top|fill_vertical"
+                android:text="Aygıt Ayrıntıları"
+                android:textColor="@color/mint"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="228dp"
+                android:text="Destek Konuları "
+
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            <EditText
+                android:id="@+id/editTextText5"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/gri"
+                android:drawableRight="@drawable/mikrofon"
+                android:ems="10"
+                android:hint="Bize ne tür bir sorun yaşadığınızdan bahsedin"
+                android:inputType="text"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="6dp"
+                tools:layout_editor_absoluteY="447dp" />
+
+            <Button
+                android:id="@+id/buttonGirisYap"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:backgroundTint="@color/gri"
+                android:text="Onarımlar ve Fiziksel Hasar"
+                android:textAllCaps="false"
+                android:textColor="@color/darkgray"
+                app:icon="@drawable/baseline_build_24"
+                app:iconTint="@color/orange"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="507dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:backgroundTint="@color/gri"
+                android:text="Aygıt Performansı"
+                android:textAllCaps="false"
+                android:textColor="@color/darkgray"
+                app:icon="@drawable/aygitperformansi"
+                app:iconTint="@color/kahverengi"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="552dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:backgroundTint="@color/gri"
+                android:text="Abonelikler ve Satın Alma İşlemleri"
+                android:textAllCaps="false"
+                android:textColor="@color/darkgray"
+                app:icon="@drawable/baseline_credit_card_24"
+                app:iconTint="@color/purple_500" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/gri"
+                android:text="Parolalar ve Güvenlik"
+                android:textAllCaps="false"
+                android:textColor="@color/darkgray"
+                app:icon="@drawable/lock"
+                app:iconTint="@color/mint" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/gri"
+                android:text="Güncelleme, Yedekleme ve Geri Yükleme"
+                android:textAllCaps="false"
+                android:textColor="@color/darkgray"
+                app:icon="@drawable/baseline_360_24"
+                app:iconTint="@color/green" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/gri"
+                android:text="Daha Fazla"
+                android:textAllCaps="false"
+                android:textColor="@color/darkgray"
+                app:icon="@drawable/baseline_more_horiz_24"
+                app:iconTint="@android:color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

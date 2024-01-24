@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.urundetay.slideshow.SlideshowFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Destek"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextText2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/gri"
+                android:backgroundTint="@color/gri"
+                android:drawableRight="@drawable/mikrofon"
+                android:ems="10"
+
+                android:hint="Bize ne tür bir sorun yaşadığınızdan bahsedin"
+                android:inputType="text"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aygıtlarım >"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="189dp"
+                android:src="@drawable/aygiit" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:src="@drawable/aygit" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Destek Araçları >"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/gri"
+                android:text="Abonelikleri Yönetin"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                app:icon="@drawable/abonelik"
+                android:textColor="@color/darkgray"
+                app:iconTint="@color/mint" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/gri"
+                android:text="Parolayı Sıfırla"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textColor="@color/darkgray"
+                app:icon="@drawable/lock"
+                app:iconTint="@color/mint" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/gri"
+                android:text="Garanti Kapsamını Denetle"
+                android:textAllCaps="false"
+                android:textColor="@color/darkgray"
+                android:textSize="14sp"
+                app:icon="@drawable/security"
+                app:iconTint="@color/mint" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
